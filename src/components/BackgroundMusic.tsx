@@ -10,7 +10,7 @@ export default function BackgroundMusic() {
     // Loads local bg-music.mp3 from the public/ folder
     // You can replace the file in public/bg-music.mp3 with your own music!
     //const audio = new Audio('/bg-music.mp3');
-    const audio = new Audio('https://cdn.pixabay.com/download/audio/2026/04/14/audio_25782262cf.mp3?filename=atlasaudio-nature-piano-519619.mp3');
+    const audio = new Audio('https://www.no-copyright-music.com/wp-content/uploads/2021/09/01-Amazing-Full-Track-1.mp3');
     audio.loop = true;
     audio.volume = 0.25;
     audioRef.current = audio;
