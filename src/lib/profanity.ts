@@ -30,8 +30,7 @@ export function normalizeVietnamese(text: string): string {
 
 // Basic list of inappropriate words (normalized, no diacritics)
 const BANNED_WORDS: string[] = [
-  'dit', 'lon', 'buoi', 'cu', 'dai', 'ngu', 'cho', 'kho di',
-  'du ma', 'me may', 'fuck', 'shit', 'bitch', 'asshole', 'sex',
+  'dit', 'lon', 'buoi', 'cu', 'dai', 'du ma', 'me may', 'fuck', 'shit', 'bitch', 'asshole', 'sex',
 ];
 
 export function containsProfanity(text: string): boolean {
